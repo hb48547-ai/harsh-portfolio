@@ -3,7 +3,6 @@ import "./App.css";
 import { motion } from "framer-motion";
 import {
   FaWhatsapp,
-  FaGithub,
   FaInstagram,
   FaFacebook,
   FaLinkedin,
@@ -76,22 +75,31 @@ function App() {
       <section className="social">
         <h2>Connect With Me</h2>
         <div className="icons">
-          <a href="https://www.instagram.com/harshussh" target="_blank">
+          <a
+            href="https://www.instagram.com/harshussh"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaInstagram />
           </a>
 
-          <a href="https://www.facebook.com/share/1KiQhB9eio/" target="_blank">
+          <a
+            href="https://www.facebook.com/share/1KiQhB9eio/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaFacebook />
           </a>
 
           <a
             href="https://www.linkedin.com/in/harsh-bajpai-ab896028b"
             target="_blank"
+            rel="noreferrer"
           >
             <FaLinkedin />
           </a>
 
-          <a href="https://wa.me/916387816346" target="_blank">
+          <a href="https://wa.me/916387816346" target="_blank" rel="noreferrer">
             <FaWhatsapp />
           </a>
         </div>
